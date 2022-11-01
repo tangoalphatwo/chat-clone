@@ -1,0 +1,38 @@
+.widgets {
+    flex: 0.3;
+}
+
+.widgets::-webkit-scrollbar {
+    display: none;
+}
+
+.widgets_input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: var(--search);
+}
+
+.widgets_input > input {
+    border: none;
+    background-color: var(--search);
+  }
+
+.widgets_searchIcon {
+    border: none;
+    color: grey;
+}
+
+.widgets_widgetsContainer {
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.widgets_widgetsContainer > h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }

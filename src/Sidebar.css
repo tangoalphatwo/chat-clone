@@ -1,0 +1,27 @@
+.sidebar {
+    border-right: 1px solid var(--logo-color1);
+    flex: 0.3;
+    min-width: 250px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidebar_icon {
+    color: var(--logo-color1);
+    padding: 5px;
+    font-size: 30px !important;
+}
+
+.sidebar_post {
+    background-color: var(--logo-color1a) !important;
+    color: var(--logo-color1) !important;
+    border: none !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+
+    width: 90 !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
